@@ -1,0 +1,942 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="The Sleeper Below" id="1ccf6ce1-e3e7-458d-a53f-7e0f6f5a05c7" gameId="43054c18-2362-43e0-a434-72f8d0e8477c" gameVersion="2.1.1.6" version="2.1.1.6">
+  <packaging />
+  <markers />
+  <cards>
+    <card name="[ Initiate of Dagon" id="1ef745b5-e966-451c-aa2d-e6c519f26786">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="0" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="1" />
+      <property name="Subtypes" value="Cultist." />
+      <property name="Card Text" value="" />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 01" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Watcher of Signs" id="65ff4598-cd01-4340-a46b-581a91185bf0">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="1" />
+      <property name="Subtypes" value="Cultist." />
+      <property name="Card Text" value="While you control no non-[ cards, Watcher of Signs gains an % icon.&#xD;&#xA;&#xD;&#xA;Response: After a DISASTER card is played, choose a resource and move it to another domain controlled by the same player." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 02" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Gustaf Johansen" id="65288a3d-76ef-472e-bd00-a08af2e6fd1c">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="The Harbinger" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="#" />
+      <property name="Skill" value="1" />
+      <property name="Subtypes" value="Cultist." />
+      <property name="Card Text" value="Forced Response: After a CULTIST leaves play, draw 1 card. Limit 3 times per turn." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 03" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Mariner" id="989edd2c-6a65-4d31-85ab-e645b65fa992">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="The Harbinger" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="#" />
+      <property name="Skill" value="1" />
+      <property name="Subtypes" value="Cultist." />
+      <property name="Card Text" value="Response: After an opponent has committed at least 1 character to a story, exhaust Mariner to commit it and all uncommitted characters to a single story. At the end of the phase, sacrifice Mariner if able." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 04" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Black Winged One" id="fb793f9c-86da-4354-b7cf-0ea90da8599b">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="# #" />
+      <property name="Skill" value="2" />
+      <property name="Subtypes" value="Monster." />
+      <property name="Card Text" value="Disrupt: When an opponent’s card would go to the discard pile, instead put that card on the bottom of its owner’s deck. Then, Black Winged One gains a # icon until the end of the phase. Limit once per phase." />
+      <property name="Keyword" value="Invulnerability." />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 05" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Obsessive Zealot" id="d66a71bb-24d0-4223-b77e-644f82f72447">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="@ $" />
+      <property name="Skill" value="1" />
+      <property name="Subtypes" value="Cultist." />
+      <property name="Card Text" value="Response: After Obsessive Zealot leaves play, choose 1 character. That character goes insane." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 06" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Ian Hardaway" id="d3e81c94-d7da-4ef0-aa0d-0a1524e77c9b">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Uncanny Presence" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="$ $ $" />
+      <property name="Skill" value="2" />
+      <property name="Subtypes" value="Independent." />
+      <property name="Card Text" value="" />
+      <property name="Keyword" value="Fast." />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 07" />
+      <property name="Struggle Icons" value="@ #" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Akhlut" id="2a045acc-1ac9-4f66-8206-db2186ef12a4">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="@ #" />
+      <property name="Skill" value="3" />
+      <property name="Subtypes" value="Monster." />
+      <property name="Card Text" value="While you control no non-[ cards, Akhlut gains a @ icon and other Monster characters you control gain # # icons." />
+      <property name="Keyword" value="Villainous. Fast." />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 08" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Asuilaak" id="239e15e4-7195-4205-9fd9-2fad822a5017">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Fallen Angakkug" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="@ $" />
+      <property name="Skill" value="3" />
+      <property name="Subtypes" value="Cultist." />
+      <property name="Card Text" value="While you control no non-[ cards, Asuilaak gains a @ icon and other Cultist characters you control gain an $ icon." />
+      <property name="Keyword" value="Villainous. Fast." />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 09" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Bone Sculptor" id="ec349e3d-b390-4d64-b432-92e43c8676e5">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="$ $" />
+      <property name="Skill" value="2" />
+      <property name="Subtypes" value="Cultist. Artist." />
+      <property name="Card Text" value="Action: Exhaust Bone Sculptor and pay X (minimum of 1) to choose 1 character in any discard pile with a cost of X or lower. Put it into play under your control. At the end of the phase remove it from the game. Limit once per turn." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 10" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Dwellers Below" id="f8f93ecf-5616-4639-9a29-7e943ddb004a">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="@ #" />
+      <property name="Skill" value="2" />
+      <property name="Subtypes" value="Deep One. Servitor." />
+      <property name="Card Text" value="Action: Choose a non-ANCIENT ONE character. Put that character and Dwellers Bellow on the bottom of its owner’s decks." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 11" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Functional Psychopath" id="e14426f6-58a5-496b-a742-32596fada457">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="#" />
+      <property name="Skill" value="3" />
+      <property name="Subtypes" value="Independent." />
+      <property name="Card Text" value="Forced Response: After characters uncommit from a story, choose and destroy the character with the lowest cost." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 12" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Henry Anthony Wilcox" id="1880972b-556d-40b3-b2a6-145a5582a0f6">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Neurotic Genius" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="@ @ " />
+      <property name="Skill" value="4" />
+      <property name="Subtypes" value="Cultist. Dreamer." />
+      <property name="Card Text" value="Response: After you play a CULTIST character, Henry Anthony Wilcox gains INVULNERABILITY, and CULTIST characters you control gain a @ icon until the end of the turn." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 13" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Ruinous Star Spawn" id="bb863fc4-0d7e-4ce2-99a3-081dd0b0eb4c">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="5" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="@ @ # #" />
+      <property name="Skill" value="5" />
+      <property name="Subtypes" value="Servitor." />
+      <property name="Card Text" value="When you play Ruinous Star Spawn, you may sacrifice X CULTIST characters to lower Ruinous Star Spawn’s cost by X.&#xD;&#xA;&#xD;&#xA;Response: After you play Ruinous Star Spawn, choose a story. Remove all success tokens from the chosen story." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 14" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="[[[ * Fiona Day" id="5c5be3c8-2d45-44ab-8977-ab3c592100ac">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Driven Visionary" />
+      <property name="Cost" value="5" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="# # $ $" />
+      <property name="Skill" value="4" />
+      <property name="Subtypes" value="Cultist. Dreamer." />
+      <property name="Card Text" value="Disrupt: After you play Fiona Day, sacrifice X other CULTIST characters to place X success tokens on 1 story." />
+      <property name="Keyword" value="Dormant." />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 15" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="[[ Hunting Wendigo" id="421a0c11-71f1-4f89-82fd-2174de9464bb">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="@ @ # # #" />
+      <property name="Skill" value="5" />
+      <property name="Subtypes" value="Monster. Polar." />
+      <property name="Card Text" value="Disrupt: When Hunting Wendigo would be destroyed, instead discard all wound tokens and attachments from it and attach it as a Dormant card at a story." />
+      <property name="Keyword" value="Dormant. Fast." />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 16" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="[ * Followers of R'lyeh" id="63c3eee7-8b8e-472b-ac52-b7b58ca9559f">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="@ # # # $" />
+      <property name="Skill" value="6" />
+      <property name="Subtypes" value="Society. Cultist." />
+      <property name="Card Text" value="Reduce the cost to play Followers of R’lyeh by 2 for each story card in an opponent’s won pile.&#xD;&#xA;&#xD;&#xA;Forced Response: After you play Followers of R’lyeh, each player sacrifices 2 non-CULTIST characters that he controls." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 17" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Kassogtha" id="a550d502-46f9-4189-9d5b-9a20c314606a">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Leviathan of Disease" />
+      <property name="Cost" value="7" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="@ @ # $ $" />
+      <property name="Skill" value="7" />
+      <property name="Subtypes" value="Ancient One." />
+      <property name="Card Text" value="When you play Kassogtha, you may sacrifice X CULTIST characters to lower Kassogtha’s cost by X.&#xD;&#xA;&#xD;&#xA;Forced Response: After you play Kassogtha, choose 1 character, 1 support card, and 1 conspiracy, if able. Destroy all chosen cards." />
+      <property name="Keyword" value="Villainous. Invulnerability." />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 18" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="[[[[ * Cthulhu" id="3b89a578-5a1c-4fa4-80d6-891e7624ce46">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="The Sleeper Below" />
+      <property name="Cost" value="10" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="@ @ # # $" />
+      <property name="Skill" value="10" />
+      <property name="Subtypes" value="Ancient One." />
+      <property name="Card Text" value="Disrupt: After you play Cthulhu, discard&#xD;&#xA;up to 3 total resources from your domains. Each player must sacrifice each character and support card he controls of cost X or lower. X is the number of resources discarded in this way." />
+      <property name="Keyword" value="Villainous. Dormant. Invulnerability." />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 19" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Horrific Statuette" id="a4ae3bdc-96dd-4577-969a-198cc69af1cf">
+      <property name="Type" value="Support" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Item." />
+      <property name="Card Text" value="Action: Exhaust Horrific Statuette to choose 1 CULTIST character. Choose an icon type and change any number of that character’s icons to that icon type." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 20" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Tidal Pool" id="67b5d4bf-2e87-495c-8f66-2b3dbff593cf">
+      <property name="Type" value="Support" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Attachment. Environment." />
+      <property name="Card Text" value="Attach to a story card.&#xD;&#xA;&#xD;&#xA;Forced Response: The player who lost the skill check at the attached story must sacrifice a non-[ character committed to this story, if able." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 21" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Twisted Acropolis" id="013d9355-df64-43f9-aea9-f52e0acdfda5">
+      <property name="Type" value="Support" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Location." />
+      <property name="Card Text" value="Disrupt: When a character would be sacrificed, pay 1 to put a CULTIST character from your hand into play." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 22" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Seven Cryptical Books of Hsaan" id="f53cff6b-a635-419d-8950-005996f3ccb1">
+      <property name="Type" value="Support" />
+      <property name="Descriptor" value="Secrets of the Other Gods" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Tome." />
+      <property name="Card Text" value="Response: After a character is destroyed, look at the top 4 cards of your deck and arrange them in any order." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 23" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Summon the Sleeper" id="76a6d274-dbea-489b-a47b-d9b3d8dab8a0">
+      <property name="Type" value="Support" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Ritual." />
+      <property name="Card Text" value="Forced Response: When you exhaust a CULTIST character, place 1 success token on Summon the Sleeper.&#xD;&#xA;&#xD;&#xA;Action: Sacrifice Summon the Sleeper and discard 5 success tokens from it to search your deck for a SERVITOR or ANCIENT ONE, reveal it, and add it to your hand." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 24" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Unaussprelichen Kulten" id="595edf34-3f91-4681-ae45-b4bac4efab91">
+      <property name="Type" value="Support" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Tome." />
+      <property name="Card Text" value="Action: During the operations phase, reveal the top card of your deck. If that card is a CULTIST character, you may play that card as if it were in your hand." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 25" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* 7 Thomas Street" id="20f63286-53d0-4f8b-a88e-07be59642176">
+      <property name="Type" value="Support" />
+      <property name="Descriptor" value="The Fleur-de-Lys Building" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Location." />
+      <property name="Card Text" value="Players must pay 1 as an additional cost to play an event card. Each player may ignore this effect if he controls 2 or more CULTIST characters." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 26" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="[[ * Irem" id="224e55ff-b448-408a-bcfc-adef29550bf9">
+      <property name="Type" value="Support" />
+      <property name="Descriptor" value="The City of Pillars" />
+      <property name="Cost" value="5" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Lost Civilization." />
+      <property name="Card Text" value="Action: Sacrifice Irem to have each player sacrifice all but 2 characters he controls." />
+      <property name="Keyword" value="Dormant." />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 27" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="[[[ Aurora Boralis" id="e808b411-0bcd-47bd-a77b-8f7afd4a2c0d">
+      <property name="Type" value="Event" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="0" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Polar." />
+      <property name="Card Text" value="Action: Ignore the resource match requirement of the next character card you play this phase." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 28" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="[[ Black Seas of Infinity" id="a7a30875-9e6a-4199-a3f3-6e64f2471781">
+      <property name="Type" value="Event" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="0" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Disaster." />
+      <property name="Card Text" value="Play only during the story phase.&#xD;&#xA;&#xD;&#xA;Action: Drain all domains." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 29" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Cthulhu Fhtagn!" id="7c2924d1-3ad6-4144-aeec-e120a0f03c47">
+      <property name="Type" value="Event" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Disaster." />
+      <property name="Card Text" value="Response: After a character commits to a story, its controller must either discard 1 of his success tokens from that story or discard a card from&#xD;&#xA;his hand." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 30" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Foul Induction" id="68e0b146-85f2-4f7f-9836-1e09b648c750">
+      <property name="Type" value="Event" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Spell." />
+      <property name="Card Text" value="Action: Put any number of CULTIST characters with a combined printed cost of 3 or lower from your discard pile into play." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 31" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Polar Vortex" id="afb57d97-17c0-4a99-988c-60529cc2c969">
+      <property name="Type" value="Event" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Polar. Disaster." />
+      <property name="Card Text" value="Action: Each player skips his next refresh phase." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 32" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="The Stars are Right" id="25c8fb16-25f6-4f02-8033-d47680f4e392">
+      <property name="Type" value="Event" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="4" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="" />
+      <property name="Card Text" value="Action: Put a DORMANT character into play from your hand. At the end of the phase, attach it as a DORMANT card at a story where you have no success tokens, otherwise remove it from the game." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 33" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="[[[[ From the Depths" id="b5d64253-c31c-4e76-931a-989a2118147f">
+      <property name="Type" value="Event" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Disaster." />
+      <property name="Card Text" value="Action: Reveal the top 5 cards of your deck and put all characters revealed into play. Return all other cards to the top of your deck in the same order." />
+      <property name="Keyword" value="Dormant." />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 34" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Raising of the Great Old One" id="1e07b03a-bdca-407b-b756-de16718d0edd">
+      <property name="Type" value="Conspiracy" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Cthulhu" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="" />
+      <property name="Card Text" value="Characters that are made insane at this conspiracy are destroyed. Characters wounded by losing the # struggle at this conspiracy are attached to a domain of their owner’s choosing instead of being destroyed." />
+      <property name="Keyword" value="Dormant." />
+      <property name="Resource Icon" value="[" />
+      <property name="Collector Info" value="F 34" />
+      <property name="Struggle Icons" value="@ @ # # #" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Kelly McIhenney" id="b63df15f-615c-4fc1-bde8-e875baf5ca7b">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="The Lure" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Icons" value="$" />
+      <property name="Skill" value="1" />
+      <property name="Subtypes" value="Independent." />
+      <property name="Card Text" value="Response: After Kelly McIlhenney commits to a&#xD;&#xA;story add 1 success token to her.&#xD;&#xA;Action: Sacrifice Kelly McIlhenney to search your deck for a character with cost X or less and put it in your hand. X is the number of success tokens on Kelly McIlhenney." />
+      <property name="Keyword" value="Toughness +1. Willpower." />
+      <property name="Resource Icon" value="?" />
+      <property name="Collector Info" value="F 36" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Even Death May Die" id="a3b357e5-96ad-4a8b-96d8-73a206caec8b">
+      <property name="Type" value="Support" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="Neutral" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Attachment. Curse." />
+      <property name="Card Text" value="Attach to an opponent’s discard pile.&#xD;&#xA;&#xD;&#xA;Disrupt: When a card would enter the attached discard pile, instead remove it from the game. Then, place 1 success token on Even Death May Die." />
+      <property name="Keyword" value="Fated 4." />
+      <property name="Resource Icon" value="?" />
+      <property name="Collector Info" value="F 37" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Ancestral Fear" id="f21ad5b8-24eb-4e94-861f-8861d391e44e">
+      <property name="Type" value="Event" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="1" />
+      <property name="Faction" value="Neutral" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Madness." />
+      <property name="Card Text" value="Disrupt: When a card effect would cause any number of characters you control to leave play, instead choose and drive any number of those characters insane to cancel the effect on that character." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="?" />
+      <property name="Collector Info" value="F 38" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Inspector Jogn Legrasse" id="4063755b-3eae-445b-b22a-0d1e5d6b315d">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Following the Clues" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="The Agency" />
+      <property name="Icons" value="# % %" />
+      <property name="Skill" value="1" />
+      <property name="Subtypes" value="Investigator." />
+      <property name="Card Text" value="Response: After an opponent triggers a card effect that targets a card you control, refresh a domain." />
+      <property name="Keyword" value="Heroic. Toughness +1." />
+      <property name="Resource Icon" value="_" />
+      <property name="Collector Info" value="F 39" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="_ * The Peel Association" id="de574b4b-4a1a-4f10-9a28-e2c119cdfc49">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Protecting Mankind" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="The Agency" />
+      <property name="Icons" value="# # # % %" />
+      <property name="Skill" value="6" />
+      <property name="Subtypes" value="Society. Government." />
+      <property name="Card Text" value="Reduce the cost to play The Peel Association by 2 for each story card in an opponent’s won pile.&#xD;&#xA;&#xD;&#xA;Response: After you play The Peel Association, choose a domain. Turn each resource attached to that domain facedown. They are now considered to provide only neutral resources." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="_" />
+      <property name="Collector Info" value="F 40" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Ardois-Bonnot" id="aa9d5017-e343-4ba6-b764-51f0db9090e5">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="The Surrealist" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Hastur" />
+      <property name="Icons" value="# # $" />
+      <property name="Skill" value="3" />
+      <property name="Subtypes" value="Artist. Lunatic." />
+      <property name="Card Text" value="Response: After you commit Ardois-Bonnot to a non-conspiracy story, drive him insane to trigger the effect of that story." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="]" />
+      <property name="Collector Info" value="F 41" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="] * Sons of Carcosa" id="f21b0d09-471d-4097-a6a0-523c9e7de6c2">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Servants to the King" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="Hastur" />
+      <property name="Icons" value="@ @ # $ $" />
+      <property name="Skill" value="6" />
+      <property name="Subtypes" value="Society. Cultist." />
+      <property name="Card Text" value="Reduce the cost to play Sons of Carcosa by 2 for each story card in an opponent’s won pile.&#xD;&#xA;&#xD;&#xA;Response: After a player readies one or more cards outside of the refresh phase, he must make a character he controls go insane, if able." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="]" />
+      <property name="Collector Info" value="F 42" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Professor William Webb" id="a92b6028-9ceb-41e5-9fc6-8ebaea85da22">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Finder of Hidden Connections" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Miskatonic University" />
+      <property name="Icons" value="% %" />
+      <property name="Skill" value="4" />
+      <property name="Subtypes" value="Faculty. Explorer." />
+      <property name="Card Text" value="When you would place a success token at a story at which Professor William Webb is committed, you may instead place that success token at another story." />
+      <property name="Keyword" value="Fast." />
+      <property name="Resource Icon" value="{" />
+      <property name="Collector Info" value="F 43" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="[ * US Archaeological Society" id="3248f2cc-b1e6-4fcc-a9d3-c4f202f3732e">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Lifting the Veil" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="Miskatonic University" />
+      <property name="Icons" value="$ $ % % %" />
+      <property name="Skill" value="6" />
+      <property name="Subtypes" value="Society. Explorer." />
+      <property name="Card Text" value="Reduce the cost to play US Archaeological Society by 2 for each story card in an opponent’s won pile.&#xD;&#xA;&#xD;&#xA;Response: After you place 1 or more success tokens at a story at which US Archaeological Society is committed, put a Lost Civilization location into play from your hand or your discard pile." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="{" />
+      <property name="Collector Info" value="F 44" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Budding Dark Young" id="4cfe028c-6626-4029-ba12-6d33eaf9af7a">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Shub-Niggurath" />
+      <property name="Icons" value="@ # #" />
+      <property name="Skill" value="2" />
+      <property name="Subtypes" value="Dark Young. Servitor." />
+      <property name="Card Text" value="Response: After Budding Dark Young leaves play, put into play from your hand a Dark Young character with skill 3 or lower." />
+      <property name="Keyword" value="Toughness +2." />
+      <property name="Resource Icon" value="&gt;" />
+      <property name="Collector Info" value="F 45" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="&gt; * The Shepherds" id="13dc16c4-725f-4f01-86f3-054496ee8386">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Mother's Helping Hands" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="Shub-Niggurath" />
+      <property name="Icons" value="@ # # $ $" />
+      <property name="Skill" value="6" />
+      <property name="Subtypes" value="Society. Cultist." />
+      <property name="Card Text" value="Reduce the cost to play The Shepherds by 2 for each story card in an opponent’s won pile.&#xD;&#xA;&#xD;&#xA;Response: After you place 1 or more success tokens at a story at which The Shepherds is committed, choose a character attached to one of your domains as a resource and put it on the top of your deck." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="&gt;" />
+      <property name="Collector Info" value="F 46" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="Theosophist" id="3e0014ea-6fd0-4feb-ad38-cbe80ad4265f">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="The Order of the Silver Twilight" />
+      <property name="Icons" value="$ %" />
+      <property name="Skill" value="0" />
+      <property name="Subtypes" value="Lodge." />
+      <property name="Card Text" value="Action: Exhaust Theosophist to choose a non-neutral resource and name a faction. Until the end of the phase, that resource is now considered a match for the chosen faction instead of its printed faction." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="^" />
+      <property name="Collector Info" value="F 47" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Professor George Angell" id="77536601-7b4a-4432-b614-715a3dd2ef48">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="The Order of the Silver Twilight" />
+      <property name="Icons" value="$ %" />
+      <property name="Skill" value="3" />
+      <property name="Subtypes" value="Faculty. Lodge." />
+      <property name="Card Text" value="Disrupt: Return Professor George Angell to your hand to cancel an effect just triggered." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="^" />
+      <property name="Collector Info" value="F 48" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="^ * H.O.S.T." id="68de8367-77ba-4df7-8031-c493cf3ed204">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="The Order of the Silver Twilight" />
+      <property name="Icons" value="# # $ $ %" />
+      <property name="Skill" value="6" />
+      <property name="Subtypes" value="Society. Independent." />
+      <property name="Card Text" value="Reduce the cost to play H.O.S.T. by 2 for each story card in an opponent’s won pile.&#xD;&#xA;&#xD;&#xA;Action: Return a LODGE character to your hand. Then, draw 1 card. Limit 3 times per turn." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="^" />
+      <property name="Collector Info" value="F 49" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* The Tablet of Nhing" id="d406f597-5a0e-462c-ac21-ee0ac72762be">
+      <property name="Type" value="Support" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="2" />
+      <property name="Faction" value="The Order of the Silver Twilight" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Artifact." />
+      <property name="Card Text" value="Response: After a character you control is destroyed, exhaust The Tablets of Nhing to put into play a character from your hand whose cost is lower than the destroyed character. Then, place 1 success token on The Tablets of Nhing." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="^" />
+      <property name="Collector Info" value="F 50" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="^^^ Calling the Darkness" id="f501dd1f-7f2b-4dbf-a487-f70ccd02e30c">
+      <property name="Type" value="Event" />
+      <property name="Descriptor" value="" />
+      <property name="Cost" value="0" />
+      <property name="Faction" value="The Order of the Silver Twilight" />
+      <property name="Icons" value="" />
+      <property name="Skill" value="" />
+      <property name="Subtypes" value="Ritual." />
+      <property name="Card Text" value="Action: Drive any number of characters you control insane whose total icons include ##$$$%% to search your deck for an Ancient One and put it into play." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="^" />
+      <property name="Collector Info" value="F 51" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* St. Claire" id="6beda3e6-2b26-43b7-a790-0dde80450050">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="As Rich as a Queen" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="The Syndicate" />
+      <property name="Icons" value="# # $ %" />
+      <property name="Skill" value="3" />
+      <property name="Subtypes" value="Criminal." />
+      <property name="Card Text" value="While St. Claire is committed to a story, only characters with a skill of 3 or higher count their icons during struggles at that story." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="}" />
+      <property name="Collector Info" value="F 52" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="} * Hip Sing Tong" id="4ca00ee2-df15-413b-b3b6-f2251b064fb5">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Fraternal Brotherhood" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="The Syndicate" />
+      <property name="Icons" value="# # # # %" />
+      <property name="Skill" value="6" />
+      <property name="Subtypes" value="Society. Criminal." />
+      <property name="Card Text" value="Reduce the cost to play Hip Sing Tong by 2 for each story card in an opponent’s won pile.&#xD;&#xA;&#xD;&#xA;Forced Response: After a character’s skill has been reduced to 0, exhaust it." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="}" />
+      <property name="Collector Info" value="F 53" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="* Nephren-Ka" id="85e5be2d-4f07-46f1-8856-bb217833a6f3">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="The Black Pharaoh" />
+      <property name="Cost" value="3" />
+      <property name="Faction" value="Yog-Sothoth" />
+      <property name="Icons" value="@ # $" />
+      <property name="Skill" value="2" />
+      <property name="Subtypes" value="Sorcerer." />
+      <property name="Card Text" value="Response: After a player draws 1 or more cards through a card effect, search your deck for a SORCERER character, reveal it, and put it into your hand." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="&lt;" />
+      <property name="Collector Info" value="F 54" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+    <card name="&lt; * Guardians of the Gate" id="39986acb-ef7c-45e6-bfd7-1ba6a104e1ea">
+      <property name="Type" value="Character" />
+      <property name="Descriptor" value="Protectors of the Portal" />
+      <property name="Cost" value="6" />
+      <property name="Faction" value="Yog-Sothoth" />
+      <property name="Icons" value="@ @ $ $ $" />
+      <property name="Skill" value="6" />
+      <property name="Subtypes" value="Society. Cultist." />
+      <property name="Card Text" value="Reduce the cost to play Guardians of the Gate by 2 for each story card in an opponent’s won pile.&#xD;&#xA;&#xD;&#xA;During each player’s draw phase, instead of drawing 2 cards, that player draws 1 card and then discards 1 card from the top of his deck." />
+      <property name="Keyword" value="" />
+      <property name="Resource Icon" value="&lt;" />
+      <property name="Collector Info" value="F 55" />
+      <property name="Struggle Icons" value="" />
+      <property name="AutoScript" value="" />
+      <property name="AutoAction" value="" />
+      <property name="Instructions" value="" />
+    </card>
+  </cards>
+</set>
