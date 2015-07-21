@@ -1328,12 +1328,12 @@ def checkForWinner():
 #  Event Handlers
 #-------------------------------------------
 
-def triggerMoveCard(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight = None, markers = "{}"):
+def triggerMoveCard(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, highlight, markers, faceup):
     #whisper("OnMoveCard: Card: {} - Scripted {}".format(card, isScriptMove))
-    if card.controller == me and not isScriptMove:
+    if card.controller == me:
         arrangeAttachments(card)
         
-def triggerScriptedMoveCard(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, isScriptMove, highlight = None, markers = "{}"):
+def triggerScriptedMoveCard(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, highlight, markers, faceup):
     whisper("OnScriptedMoveCard: Card: {} - Scripted {}".format(card, isScriptMove))
            
 def triggerTableLoad():
