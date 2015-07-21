@@ -1329,12 +1329,13 @@ def checkForWinner():
 #-------------------------------------------
 
 def triggerMoveCard(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, highlight, markers, faceup):
-    #whisper("OnMoveCard: Card: {} - Scripted {}".format(card, isScriptMove))
+    #whisper("OnMoveCard: Card: {} - Scripted {}".format(card, False))
     if card.controller == me:
         arrangeAttachments(card)
         
 def triggerScriptedMoveCard(player, card, fromGroup, toGroup, oldIndex, index, oldX, oldY, x, y, highlight, markers, faceup):
-    whisper("OnScriptedMoveCard: Card: {} - Scripted {}".format(card, isScriptMove))
+    #whisper("OnScriptedMoveCard: Card: {} - Scripted {}".format(card, True))
+	pass
            
 def triggerTableLoad():
     chooseSide()
