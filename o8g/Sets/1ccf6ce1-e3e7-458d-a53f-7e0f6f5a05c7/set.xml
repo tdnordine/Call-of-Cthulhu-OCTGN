@@ -598,7 +598,7 @@
       <property name="AutoAction" value="" />
       <property name="Instructions" value="" />
     </card>
-    <card name="* Kelly McIhenney" id="b63df15f-615c-4fc1-bde8-e875baf5ca7b">
+    <card name="* Kelly McIlhenney" id="b63df15f-615c-4fc1-bde8-e875baf5ca7b">
       <property name="Type" value="Character" />
       <property name="Descriptor" value="The Lure" />
       <property name="Cost" value="2" />

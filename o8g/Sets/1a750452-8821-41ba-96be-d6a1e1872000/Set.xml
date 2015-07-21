@@ -649,7 +649,7 @@
       <property name="AutoAction" value="" />
       <property name="Instructions" value="" />
     </card>
-    <card name="&quot;With a Fine Toothed Comb&quot;" id="1a750452-8821-41ba-96be-d6a1e1872039">
+    <card name="With a Fine Toothed Comb" id="1a750452-8821-41ba-96be-d6a1e1872039">
       <property name="Type" value="Event" />
       <property name="Descriptor" value="" />
       <property name="Cost" value="2" />

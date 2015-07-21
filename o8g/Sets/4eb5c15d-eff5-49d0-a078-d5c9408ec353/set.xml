@@ -445,7 +445,7 @@
       <property name="AutoAction" value="" />
       <property name="Instructions" value="" />
     </card>
-    <card name="Research  Assistant" id="4eb5c15d-eff5-49d0-a078-d5c9408ec027">
+    <card name="Research Assistant" id="4eb5c15d-eff5-49d0-a078-d5c9408ec027">
       <property name="Type" value="Character" />
       <property name="Descriptor" value="" />
       <property name="Cost" value="1" />

@@ -139,7 +139,7 @@
       <property name="AutoAction" value="" />
       <property name="Instructions" value="" />
     </card>
-    <card name="* San Giurgio in Alga" id="4bcd9e47-f2fe-48b0-8d74-f66cbdee4992">
+    <card name="* San Giorgio in Alga" id="4bcd9e47-f2fe-48b0-8d74-f66cbdee4992">
       <property name="Type" value="Support" />
       <property name="Descriptor" value="No Longer Abandoned" />
       <property name="Cost" value="2" />
