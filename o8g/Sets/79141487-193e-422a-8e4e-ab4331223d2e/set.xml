@@ -734,7 +734,7 @@
       <property name="AutoAction" value="" />
       <property name="Instructions" value="" />
     </card>
-    <card id="43519666-26d8-4c18-b3f9-2081d479e553" name="* Black Bood of Azathoth">
+    <card id="43519666-26d8-4c18-b3f9-2081d479e553" name="* Black Book of Azathoth">
       <property name="Resource Icon" value="{" />
       <property name="Keyword" value="" />
       <property name="Faction" value="Miskatonic University" />
