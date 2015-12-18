@@ -3,14 +3,7 @@ import types
 from coc.log import log_calls
 from coc.cards import InvalidDeckException
 import logging
-
-
-_action_source_list = []
-
-def event_handler(func):
-	_action_source_list.append(func.__name__)
-	return func
-
+from octgnpatch import OCTGNPatcher
 
 class ActionHandler(object):
 	def __init__(self, name, func, id):
@@ -29,17 +22,15 @@ class ActionHandler(object):
 	def __call__(self, *args, **kwargs):
 		return self._func(*args, **kwargs)
 	
-class CardActionOrchestrator(object):
+class CardActionOrchestrator(OCTGNPatcher):
 	def __init__(self, scope, octgn=None, *args, **kwargs):
+		super(CardActionOrchestrator, self).__init__(scope)
 		self._action_handler_list = {}
 		self._id = 1
 		self.octgn = octgn
 		self._kwargs = kwargs
 		
 		self._kwargs['octgn'] = self.octgn
-		
-		for handler in _action_source_list:
-			scope[handler] = getattr(self, handler)
 
 	def registerHandler(self, eventName, func):
 		id = self._id = self._id + 1
@@ -61,7 +52,8 @@ class CardActionOrchestrator(object):
 			try:
 				continuation = c(*args, **ckwargs)
 			except InvalidDeckException as ide:
-				self.octgn.notify(str(ide))
+				pass
+				#self.octgn.notify(str(ide))
 			except Exception as e:
 				logging.getLogger("coc").debug(str(e))
 			finally:
@@ -70,17 +62,17 @@ class CardActionOrchestrator(object):
 	
 		
 	# Event Handler Root Functions
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onTableLoaded(self):
 		self._execute("onTableLoaded")
 		
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onGameStarted(self):
 		self._execute("onGameStarted")
 		
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onPlayerConnected(self, oargs):
 		args = []
@@ -88,7 +80,7 @@ class CardActionOrchestrator(object):
 		self._execute("onPlayerConnected", *args, **kwargs)
 
 		
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onPlayerQuit(self, oargs):
 		args = []
@@ -96,7 +88,7 @@ class CardActionOrchestrator(object):
 		self._execute("onPlayerQuit", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onDeckLoaded(self, oargs):
 		args = []
@@ -104,7 +96,7 @@ class CardActionOrchestrator(object):
 		self._execute("onDeckLoaded", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onCounterChanged(self, oargs):
 		args = []
@@ -117,7 +109,7 @@ class CardActionOrchestrator(object):
 		self._execute("onCounterChanged", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onTurnPaused(self, oargs):
 		args = []
@@ -125,7 +117,7 @@ class CardActionOrchestrator(object):
 		self._execute("onTurnPaused", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onTurnPassed(self, oargs):
 		args = []
@@ -133,7 +125,7 @@ class CardActionOrchestrator(object):
 		self._execute("onTurnPassed", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onCardTargeted(self, oargs):
 		args = []
@@ -146,7 +138,7 @@ class CardActionOrchestrator(object):
 		self._execute("onCardTargeted", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onCardArrowTargeted(self, oargs):
 		args = []
@@ -160,7 +152,7 @@ class CardActionOrchestrator(object):
 		self._execute("onCardArrowTargeted", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onCardsMoved(self, oargs):
 		cards = [
@@ -179,7 +171,7 @@ class CardActionOrchestrator(object):
 		self._execute("onCardsMoved", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onScriptedCardsMoved(self, oargs):
 		cards = [
@@ -198,7 +190,7 @@ class CardActionOrchestrator(object):
 		self._execute("onCardsMoved", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onPlayerGlobalVariableChanged(self, oargs):
 		args = []
@@ -212,7 +204,7 @@ class CardActionOrchestrator(object):
 		self._execute("onPlayerGlobalVariableChanged", *args, **kwargs)
 		
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onGlobalVariableChanged(self, oargs):
 		args = []
@@ -225,7 +217,7 @@ class CardActionOrchestrator(object):
 		self._execute("onGlobalVariableChanged", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onCardClicked(self, oargs):
 		args = []
@@ -238,7 +230,7 @@ class CardActionOrchestrator(object):
 		self._execute("onCardClicked", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onCardDoubleClicked(self, oargs):
 		args = []
@@ -251,7 +243,7 @@ class CardActionOrchestrator(object):
 		self._execute("onCardDoubleClicked", *args, **kwargs)
 
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onMarkerChanged(self, oargs):
 		args = []
@@ -264,7 +256,7 @@ class CardActionOrchestrator(object):
 		self._execute("onMarkerChanged", *args, **kwargs)
 
 	
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onRandomDiscard(self, group):
 		args = []
@@ -275,7 +267,7 @@ class CardActionOrchestrator(object):
 		self._execute("onRandomDiscard", *args, **kwargs)
 	
 	
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onDrawCard(self, deck, x = 0, y = 0):
 		args = []
@@ -287,7 +279,7 @@ class CardActionOrchestrator(object):
 		
 		self._execute("onDrawCard", *args, **kwargs)	
 		
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onDrawMultiple(self, deck, x = 0, y = 0):
 		args = []
@@ -299,7 +291,7 @@ class CardActionOrchestrator(object):
 		
 		self._execute("onDrawMultiple", *args, **kwargs)	
 		
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onShuffle(self, cardgroup, x = 0, y = 0):
 		args = []
@@ -312,7 +304,7 @@ class CardActionOrchestrator(object):
 		self._execute("onShuffle", *args, **kwargs)	
 		
 		
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onPlayCard(self, card, x = 0, y = 0):
 		args = []
@@ -325,7 +317,7 @@ class CardActionOrchestrator(object):
 		self._execute("onPlayCard", *args, **kwargs)	
 
 		
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onMoveToBottomOfDeck(self, card, x = 0, y = 0):
 		args = []
@@ -337,7 +329,7 @@ class CardActionOrchestrator(object):
 		
 		self._execute("onMoveToBottomOfDeck", *args, **kwargs)	
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onToggleExhausted(self, card, x=0, y=0):
 		args = []
@@ -350,18 +342,18 @@ class CardActionOrchestrator(object):
 		self._execute("onToggleExhausted", *args, **kwargs)
 		
 		
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onSetFAQRestricted(self, group):
 		self.octgn.setGlobalVariable("restricted_list", "FAQ")
 
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onSetAltRestricted(self, group):
 		self.octgn.setGlobalVariable("restricted_list", "Alt")
 		
 	
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onLoadGameState(self, group):
 		args = []
@@ -371,7 +363,7 @@ class CardActionOrchestrator(object):
 		self._execute("onLoadGameState", *args, **kwargs)		
 
 		
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onSaveGameState(self, group):
 		args = []
@@ -381,7 +373,7 @@ class CardActionOrchestrator(object):
 		self._execute("onSaveGameState", *args, **kwargs)
 
 		
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onToggleInsanity(self, card, x=0, y=0):
 		args = []
@@ -394,7 +386,7 @@ class CardActionOrchestrator(object):
 		self._execute("onToggleInsanity", *args, **kwargs)
 				
 	
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onAddWound(self, card, x=0, y=0):
 		args = []
@@ -407,7 +399,7 @@ class CardActionOrchestrator(object):
 		self._execute("onAddWound", *args, **kwargs)
 	
 	
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onRemoveWound(self, card, x=0, y=0):
 		args = []
@@ -422,7 +414,7 @@ class CardActionOrchestrator(object):
 	
 	
 	
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onAddSuccess(self, card, x=0, y=0):
 		args = []
@@ -435,7 +427,7 @@ class CardActionOrchestrator(object):
 		self._execute("onAddSuccess", *args, **kwargs)
 	
 	
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onRemoveSuccess(self, card, x=0, y=0):
 		args = []
@@ -448,7 +440,7 @@ class CardActionOrchestrator(object):
 		self._execute("onRemoveSuccess", *args, **kwargs)
 
 	
-	@event_handler
+	@OCTGNPatcher.EventHandler
 	@log_calls()
 	def onDiscardCard(self, card, x=0, y=0):
 		args = []

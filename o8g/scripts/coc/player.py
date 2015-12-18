@@ -3,10 +3,10 @@ from coc.decorators import validate
 
 
 class PlayerActionHandler(object):
-	def __init__(self, orch):
-		orch.registerHandler("onDrawCard", self.draw1)
-		orch.registerHandler("onDrawMultiple", self.drawX)
-		orch.registerHandler("onShuffle", self.shuffleDeck)
+	def __init__(self, oct):
+		oct.registerHandler("onDrawCard", self.draw1)
+		oct.registerHandler("onDrawMultiple", self.drawX)
+		oct.registerHandler("onShuffle", self.shuffleDeck)
 
 	@log_calls()
 	@validate(['deck', 'octgn'])
@@ -23,7 +23,8 @@ class PlayerActionHandler(object):
 		count = octgn.askInteger("How Many Cards?", 2)
 		
 		for x in range(count):
-			self.draw1(deck)
+			card = deck.top()
+			card.moveTo(octgn.me.hand)
 			
 		return False
 		

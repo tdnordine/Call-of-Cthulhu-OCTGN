@@ -55,14 +55,14 @@ class CardActionHandler(object):
 	_markerWound = ("Wound", "4a247d69-b2cc-4de9-b4d1-c447bea01f61")
 	_markerSuccess = ("Success", "4a247d69-b2cc-4de9-b4d1-c447bea01f62")
 
-	def __init__(self, orch):
-		orch.registerHandler("onToggleExhausted", self.toggleExhausted)
-		orch.registerHandler("onDeckLoaded", self.validateDeck)
-		orch.registerHandler("onGlobalVariableChanged", self.setRestricted)
-		orch.registerHandler("onAddWound", self.addWound)
-		orch.registerHandler("onRemoveWound", self.removeWound)
-		orch.registerHandler("onAddSuccess", self.addSuccess)
-		orch.registerHandler("onRemoveSuccess", self.removeSuccess)
+	def __init__(self, oct):
+		oct.registerHandler("onToggleExhausted", self.toggleExhausted)
+		oct.registerHandler("onDeckLoaded", self.validateDeck)
+		oct.registerHandler("onGlobalVariableChanged", self.setRestricted)
+		oct.registerHandler("onAddWound", self.addWound)
+		oct.registerHandler("onRemoveWound", self.removeWound)
+		oct.registerHandler("onAddSuccess", self.addSuccess)
+		oct.registerHandler("onRemoveSuccess", self.removeSuccess)
 		
 		
 		self.banned_cards = self._current_banned_cards
